@@ -1,0 +1,234 @@
+.boxContainer {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+
+  flex-direction: row;
+  border: 1px solid;
+}
+.box1 {
+  width: 10%;
+  padding: 10px;
+  margin: 10px;
+}
+.box2 {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 20px solid #FF8300;
+  border-left: 20px solid #FF8300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.box2-row1b {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.box2-row4b {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.box2-row1 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  margin: 1%;
+}
+.box2-row4 {
+  align-items: flex-end;
+}
+.box2-row2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: 1%;
+  font-size: 10px;
+  text-align: center;
+}
+.button {
+  font-size: 10px;
+  color: white;
+  background-color: #7630EA;
+  margin: 5px;
+  padding: 2px;
+  min-width: 50px;
+  min-height: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.button2 {
+  margin-right: 20%;
+}
+.button3 {
+  margin-right: 30%;
+  background-color: #FF8300;
+
+}
+.button2Container {
+  display: flex;
+}
+.box2-row3 {
+  align-items: center;
+  display: flex;
+}
+.box2-row1a {
+  display: flex;
+}
+.box2-row1a1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+}
+.box2-row1a2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+.box2-row1c {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.boxMini {
+  width: 25px;
+  height: 25px;
+}
+.boxMiniContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  column-gap: 15px;
+}
+.boxFullRow {
+  background-color: #FEC901;
+  margin: 2px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.boxFullRow1 {
+  width: 100%;
+  margin: 2px;
+
+  height: 30px;
+  background-color: #7630EA;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.boxFullRow2 {
+  width: 100%;
+  margin: 2px;
+
+  height: 30px;
+  background-color: #FF8300;
+  ;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.displayFlex {
+  display: flex;
+}
+.popup {
+  position: absolute;
+  right: 60px;
+  bottom: 40px;
+}
+
+.Executive {
+  font-size: 10px;
+  color: black;
+  background-color: #FEC901;
+  margin: 5px;
+  padding: 2px;
+  min-width: 50px;
+  min-height: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Strategic {
+  font-size: 10px;
+  color: black;
+  background-color:#FEC901;
+  margin: 5px;
+  padding: 2px;
+  min-width: 50px;
+  min-height: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerText {
+  color: #FF8300;
+  width: 315px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.DayBox {
+  background-color: #FF8300;
+}
+
+.MonthBox {
+  background: #7630EA;
+}
+
+.WeekBox {
+  background: #FEC901;
+}
+
+.RoadmapBox {
+  background: #FEC901;
+  color: black;
+}
+
+.EnterpriseBox {
+  background: #FEC901;
+  color: black;
+}
+
+.MationBox {
+  background: #FEC901;
+  color: black;
+}
+
+.CultureBox {
+  background: #FF8300;
+}
+.LearningBox {
+  background: #FF8300;
+}
+
+.CsBox {
+  background: #FEC901;
+  color: black;
+}
